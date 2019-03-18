@@ -32,9 +32,9 @@ def img_path():
     return path
 
 def email_img():
-    email_send = 'daveysfunnies@gmail.com'
-    email_pword = 'This is a long password!'
-    email_receive = 'dxking16@gmail.com, josh.bodger93@gmail.com'
+    email_send = ''
+    email_pword = ''
+    email_receive = ''
    
     img_data = open(img_path(), 'rb').read() 
     msg = MIMEMultipart()
